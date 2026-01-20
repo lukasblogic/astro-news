@@ -1,8 +1,8 @@
 import type { Link } from "../types";
 
 export const SITE = {
-  title: "Astro News",
-  description: "A news website built with Astro",
+  title: "Quick-Questions.com",
+  description: "Fast answers to everyday questions.",
   author: "Mohammad Rahmani",
   url: "https://astro-news-six.vercel.app",
   github: "https://github.com/Mrahmani71/astro-news",
@@ -19,16 +19,12 @@ export const NAVIGATION_LINKS: Link[] = [
     text: "Technology",
   },
   {
-    href: "/categories/programming",
-    text: "Programming",
+    href: "/categories/houseandgarden",
+    text: "House & Garden",
   },
   {
     href: "/categories/lifestyle",
     text: "Lifestyle",
-  },
-  {
-    href: "/categories/productivity",
-    text: "Productivity",
   },
   {
     href: "/categories/health",

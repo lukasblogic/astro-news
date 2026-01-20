@@ -34,16 +34,7 @@ export const categorySchema = z.object({
 export const authorSchema = (Image: ImageFunction) =>
   z.object({
     name: z.string(),
-    job: z.string(),
-    avatar: Image(),
-    bio: z.string(),
-    social: z.array(
-      z.object({
-        name: z.string(),
-        url: z.string(),
-        icon: z.string(),
-      })
-    ),
+    avatar: Image().optional(), // ✅ optioneel
   });
 
 // avatar: Image().refine(
